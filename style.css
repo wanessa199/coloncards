@@ -1,0 +1,71 @@
+:root{
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75); 
+    --Very-light-gray: hsl(0, 0%, 95%);
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.principal-container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    max-width: 800px;
+}
+.sedans{
+    background-color: var(--Bright-orange);
+}
+
+.suvs{
+    background-color: var(--Dark-cyan);
+}
+
+.luxury{
+    background-color: var(--Very-dark-cyan);
+    padding: 40px;
+}
+
+.imagem{
+    margin-bottom: 20px;
+}
+
+.titulo{
+    color: var(--Very-light-gray);
+    font-family: "big shoulders display", sans-serif;
+    font-size: 2.5em;
+    margin: 0 0 20px 0;
+}
+.descrição{
+    color: (--Transparent-white);
+    font-family: "lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 0.7em;
+    margin: 0 0 20px 0;
+}
+
+.btn{
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: var(--Very-light-gray);
+    font-family: "lexend Deca", sans-serif;
+    margin: 40px 0 0 0;
+}
+
+.sedans .btn {
+    color: var(--Bright-orange);
+    border: solid 1px;
+    color: var(--Very-light-gray);
+}
+
+.suvs .btn{
+    color: var(--Very-dark-cyan);  
+}
+
+.luxury .btn{
+    color: var(--Very-dark-cyan);
+}
